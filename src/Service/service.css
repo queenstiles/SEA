@@ -1,0 +1,106 @@
+.servicess {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-image: url("./sdp.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow:auto;
+    position: fixed;
+    top: 0; 
+    margin: 0;
+    z-index: 10;
+  
+}
+
+
+
+
+.serv{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.texx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    padding: 10%;
+}
+
+.disp{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 50%; */
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+}
+
+@media only screen and (orientation:portrait){
+    .disp{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* height: 50%; */
+        color: rgb(0, 0, 0);
+       
+    } 
+  }
+
+.blox1{
+    background-color: rgb(255, 255, 255);
+    width: 17%;
+    margin: 1%;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    overflow: scroll;
+    box-shadow:rgb(0, 0, 0) 5px 6px 20px;
+}
+.blox1::-webkit-scrollbar {
+    display: none;
+  }
+
+
+@media only screen and (orientation:portrait){
+    .blox1{
+        background-color: rgb(255, 255, 255);
+        width: 70%;
+        height: 40vh;
+        margin-top: 10%;
+        border-radius: 3%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+       
+    } 
+  }
+
+
+.bloximage{
+    width: 50%;
+    height: 30%;
+    margin-top: 5%;
+}
+
+.h{
+font-size: 90%;
+}
+
+.p{
+    font-size: 70%;
+}

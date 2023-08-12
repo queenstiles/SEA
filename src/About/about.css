@@ -1,0 +1,315 @@
+.about {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+
+    
+}
+
+@media (min-width: 600px) {
+    .about {
+        text-align: center;
+   
+    }
+}
+
+.text{
+    margin-top: 30%;
+    
+    
+}
+
+@media (min-width: 600px) {
+    .text {
+        margin-top: 10%;
+    }
+}
+
+.text1{
+padding: 5%;
+}
+
+.boxz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media only screen and (orientation:portrait){
+    .boxz{
+      flex-direction: column;
+    } 
+}
+
+.debox{
+    width: 50%;
+}
+@media only screen and (orientation:portrait){
+    .debox{
+        width: 100%;
+    } 
+}
+
+.debox2{
+    width: 50%;
+}
+@media only screen and (orientation:portrait){
+    .debox2{
+        width: 100%;
+    } 
+}
+
+.imageshow{
+   width: 100%;
+
+}
+@media only screen and (orientation:portrait){
+    .imageshow{
+        width: 100%;
+    } 
+}
+
+.abs{
+    background-color: violet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.bbbi{
+    background-image: url("./oppioi.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+
+
+/* .boxz{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 600px) {
+    .boxz {
+        flex-direction:row;
+        height: 50vh;
+        
+    }
+}
+
+@media (orientation: landscape) {
+    .boxz{
+       
+        height: 100vh;
+     
+       
+    }
+ }
+
+.b1{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+}
+@media (min-width: 600px) {
+    .b1 {
+         width: 50%;
+    }
+}
+
+
+
+
+.b2{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin-top: 20%;
+  
+}
+
+@media (min-width: 600px) {
+    .b2{
+        margin-top: 0%;
+        
+    }
+ }
+
+.fwdtext22{
+    position: absolute;
+    text-align:start;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 13%;
+  }
+ @media (min-width: 600px) {
+   .fwdtext22{
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 7%;
+   }
+}
+
+.textdd{
+    background-color: yellow;
+}
+
+.fwdtext33{
+    position: absolute;
+
+    text-align:start;
+    width: 200px;
+    margin-top: 260px;
+    margin-left: 13%;
+   
+ 
+  }
+ @media (min-width: 600px) {
+   .fwdtext33{
+    width: 200px;
+    margin-top: 250px;
+    margin-left: 7%;
+   }
+}
+
+.fwdtext44{
+    position: absolute;
+
+    text-align:start;
+    width: 200px;
+    margin-top: 490px;
+    margin-left: 13%;
+   
+ 
+  }
+ @media (min-width: 600px) {
+   .fwdtext44{
+    width: 200px;
+    margin-top: 450px;
+    margin-left: 7%;
+   }
+}
+
+.fullimg1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../About/llp.jpg");
+    width: 100%;
+    height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+
+
+}
+
+@media (min-width: 600px) {
+    .fullimg1{
+    background-image: url("../About/full.jpg");
+    
+     
+    
+    }
+ }
+
+ @media (orientation: landscape) {
+    .fullimg1{
+        margin-top: 30%;
+        height: 120vh;
+    }
+ }
+ 
+ .transp{
+    background-color: beige;
+    width: 90%;
+    height: 70%;
+    margin-top: 50%;
+    border-radius: 10%;
+    border-width: 5%;
+    border-color: black;
+    border-block-color: black;
+    opacity: 0.7;
+ }
+
+ @media (min-width: 600px) {
+    .transp{
+        height: 30%;
+        margin-top: 1%;
+        width: 70%;
+    }
+ }
+ @media (orientation: landscape) {
+    .transp{
+        height: 110vh;
+    }
+ }
+ .textll{
+    font-size: 14px;
+    padding: 1%;
+   font-weight: bold;
+ }
+ @media (min-width: 600px) {
+    .textll{
+        font-size: 20px;
+        margin-top: 5%;
+    }
+ }
+ @media (orientation: landscape) {
+    .textll{
+        font-size: 13px;
+       
+    }
+ }
+
+ .linlin{
+    width: 1px;
+    height:70vh
+ }
+
+ @media (min-width: 600px) {
+    .linlin{
+        height: 0px;
+    }
+ }
+ @media (orientation: landscape) {
+    .linlin{
+        height: 600px;
+     
+       
+    }
+ }
+
+ .bimage{
+    background-image: url("../About/sdd.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+   
+    
+ }
+ @media (min-width: 600px) {
+    .bimage{
+        background-image: url("../About/oppioi.jfif");
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+ } */

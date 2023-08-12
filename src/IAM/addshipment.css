@@ -1,0 +1,33 @@
+.tcode{
+    margin-left: 2%;
+    display: flex;
+}
+.details{
+    background-color: blueviolet;
+    margin-left: 2%;
+
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+    width: 70%;
+}
+@media (min-width: 700px) {
+    .details{
+       
+        width: 20%;
+       
+    }
+}
+
+.savekey{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: gray;
+    height: 30vh;
+    width: 100%;
+
+}

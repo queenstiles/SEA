@@ -1,0 +1,67 @@
+.read{
+        text-align: center;
+        width: 100%;
+        background-image: url("./imgz.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        overflow:auto;
+        position: fixed;
+        top: 0; 
+        margin: 0;
+        height: 100vh;
+   
+      
+    }
+    .boxzs1{
+      
+    }
+
+    @media only screen and (orientation:portrait){
+        .boxzs1{
+          
+        } 
+      }
+
+    .inboxx{
+     
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    @media only screen and (orientation:portrait){
+        .inboxx{
+            flex-direction: column;
+        } 
+      }
+      .a1{
+width: 50%;
+      }
+
+      @media only screen and (orientation:portrait){
+        .a1{
+      width: 100%;
+        } 
+    }
+
+      .a2{
+        background-color: rgb(70, 4, 87);
+        border-radius: 1%;
+        width: 50%;
+        height: 330vh;
+        color: white;
+              }
+              @media only screen and (orientation:portrait){
+                .a2{
+              width: 100%;
+                } 
+            }
+
+     .STV{
+        width: 90%;
+
+     }         
+

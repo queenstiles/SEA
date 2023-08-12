@@ -1,0 +1,16 @@
+.rail {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-image: url("./rr.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow:auto;
+    position: fixed;
+    top: 0; 
+    margin: 0;
+    z-index: 10;
+  
+}
